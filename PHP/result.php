@@ -1,4 +1,3 @@
-<!-- result.php -->
 <!DOCTYPE html>
 <html>
 <body>
