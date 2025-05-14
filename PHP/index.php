@@ -2,6 +2,20 @@
 <html>
 <body>
 
+<p>Введите ваше имя</p>
+<?php
+	if (empty($_GET)) {
+?>
+	<form action="" method="GET">
+		<input name="name">
+		<input type="submit">
+	</form>
+<?php
+	} else {
+		echo "Приветствую, " . $_GET['name'];
+	}
+?>
+
 <h3>GET-форма:</h3>
 <p>Направьте числа для сложения</p>
 <form action="/result.php" method="GET">
