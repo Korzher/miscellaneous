@@ -44,5 +44,27 @@
     <input type="submit">
 </form>
 
+<form action="" method="POST">
+	<form action="" method="POST">
+	<textarea name="answer"><?= $_POST['answer'] ?? '' ?></textarea>
+	<input type="submit">
+	<p><?php if(isset($_POST['answer'])) echo $_POST['answer']; ?></p>
+</form>
+
+<form action="" method="GET">
+	<input type="checkbox" name="flag">
+	<input name="name_flag">
+	<input type="submit">
+</form>
+<?php
+	if (!empty($_GET)) { 
+		if (isset($_GET['flag'])) {
+			echo 'Приветствую, ' . $_GET['name_flag'] ;
+		} else {
+			echo 'До свидания, ' . $_GET['name_flag'];
+		}
+	}
+?>
+
 </body>
 </html>
