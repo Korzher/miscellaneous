@@ -4,6 +4,8 @@ import Header from "./components/Header.jsx";
 import JSXRules from "./components/JSXRules.jsx";
 import MainContent from "./components/MainContent.jsx";
 import ProductInfo from "./components/ProductInfo.jsx";
+import ProductList from "./components/ProductList.jsx";
+import UserList from "./components/UserList.jsx";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Greeting />
       <ProductInfo />
       <JSXRules />
+      <UserList />
+      <ProductList />
       <Footer />
     </>
   );
