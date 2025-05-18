@@ -1,23 +1,13 @@
-import Greeting from "./components/Dynamic-content.jsx";
-import Footer from "./components/Footer.jsx";
-import Header from "./components/Header.jsx";
-import JSXRules from "./components/JSXRules.jsx";
-import MainContent from "./components/MainContent.jsx";
-import ProductInfo from "./components/ProductInfo.jsx";
-import ProductList from "./components/ProductList.jsx";
-import UserList from "./components/UserList.jsx";
+import Condition from "./components/Condition.jsx";
+import Greeting from "./components/Greeting.jsx";
+import UserStatus from "./components/UserStatus.jsx";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <MainContent />
-      <Greeting />
-      <ProductInfo />
-      <JSXRules />
-      <UserList />
-      <ProductList />
-      <Footer />
+      <Condition />
+      <UserStatus loggedIn={true} isAdmin={true} />
+      <Greeting timeOfDay={"evening"} />
     </>
   );
 };
