@@ -1,13 +1,13 @@
-import Condition from "./components/Condition.jsx";
-import Greeting from "./components/Greeting.jsx";
-import UserStatus from "./components/UserStatus.jsx";
+import IconComponent from "./components/IconComponent.jsx";
+import ProfileCard from "./components/ProfileCard.jsx";
+import StyledCard from "./components/StyledCard.jsx";
 
 const App = () => {
   return (
     <>
-      <Condition />
-      <UserStatus loggedIn={true} isAdmin={true} />
-      <Greeting timeOfDay={"evening"} />
+      <StyledCard />
+      <ProfileCard />
+      <IconComponent />
     </>
   );
 };
