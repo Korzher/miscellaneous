@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 function ShoppingList() {
-  const [nameValue, setNameValue] = useState(null);
-  const [quantityValue, setQuantityValue] = useState(null);
+  const [nameValue, setNameValue] = useState("");
+  const [quantityValue, setQuantityValue] = useState("");
   const [info, setInfo] = useState([{ name: "", quantity: "" }]);
 
   function handleNameChange(e) {
