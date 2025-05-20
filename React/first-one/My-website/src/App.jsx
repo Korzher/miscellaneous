@@ -1,13 +1,15 @@
-import IconComponent from "./components/IconComponent.jsx";
-import ProfileCard from "./components/ProfileCard.jsx";
-import StyledCard from "./components/StyledCard.jsx";
+import Counter from "./components/Counter.jsx";
+import Profile from "./components/Profile.jsx";
+import ShoppingList from "./components/ShoppingList.jsx";
+import TodoList from "./components/TodoList.jsx";
 
 const App = () => {
   return (
     <>
-      <StyledCard />
-      <ProfileCard />
-      <IconComponent />
+      <Counter />
+      <TodoList />
+      <Profile />
+      <ShoppingList />
     </>
   );
 };
