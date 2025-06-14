@@ -1,14 +1,9 @@
-import UpdateUser from "./components/UpdateUser";
-import { UserContext } from "./components/UserContext";
-import UserProfile from "./components/UserProfile";
+import CounterReducer from "./components/CounterReducer";
 
 const App = () => {
   return (
     <>
-      <UserContext>
-        <UserProfile />
-        <UpdateUser />
-      </UserContext>
+      <CounterReducer />
     </>
   );
 };
