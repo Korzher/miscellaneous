@@ -49,3 +49,5 @@ function CounterReducer() {
 }
 
 export default CounterReducer;
+
+// В input и button лучше использовать useState вместо PreviousElementSibling на случай внесения изменений в Dom-дерево
