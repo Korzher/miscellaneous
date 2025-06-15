@@ -1,9 +1,11 @@
-import CounterReducer from "./components/CounterReducer";
+import FocusInput from "./components/useRef/FocusInput";
+import Timer from "./components/useRef/Timer";
 
 const App = () => {
   return (
     <>
-      <CounterReducer />
+      <FocusInput />
+      <Timer />
     </>
   );
 };
