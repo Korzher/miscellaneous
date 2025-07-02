@@ -1,9 +1,9 @@
-import Meals from "./Components/Meals";
+import Calculator from "./Components/Calculator";
 
 const App = () => {
   return (
     <div>
-      <Meals />
+      <Calculator />
     </div>
   );
 };
