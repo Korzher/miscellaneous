@@ -1,9 +1,9 @@
-import Calculator from "./Components/Calculator";
+import ToggleBackgroundColor from "./Components/ToggleBackgroundColor";
 
 const App = () => {
   return (
     <div>
-      <Calculator />
+      <ToggleBackgroundColor />
     </div>
   );
 };
