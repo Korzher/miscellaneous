@@ -1,9 +1,9 @@
-import HiddenSearchBar from "./Components/HiddenSearchBar";
+import Testimonials from "./Components/Testimonials";
 
 const App = () => {
   return (
     <div>
-      <HiddenSearchBar />
+      <Testimonials />
     </div>
   );
 };
