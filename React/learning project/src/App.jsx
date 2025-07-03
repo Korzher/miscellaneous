@@ -1,9 +1,9 @@
-import ToggleBackgroundColor from "./Components/ToggleBackgroundColor";
+import HiddenSearchBar from "./Components/HiddenSearchBar";
 
 const App = () => {
   return (
     <div>
-      <ToggleBackgroundColor />
+      <HiddenSearchBar />
     </div>
   );
 };
